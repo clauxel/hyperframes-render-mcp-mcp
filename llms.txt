@@ -1,15 +1,12 @@
 # HyperFrames Render MCP
 
-HyperFrames Render MCP is a hosted remote MCP for HyperFrames.
+Paid remote MCP for HyperFrames, structured receipts, usage logs, and audit-ready JSON evidence.
 
 Website: https://hyperframesrender.clauxel.com/
-Docs pattern reference: https://github.com/clauxel/MiroFish
-Primary keyword: HyperFrames
-Type: MCP
-Default plan: team
 MCP endpoint: https://hyperframesrender.clauxel.com/mcp
 Server card: https://hyperframesrender.clauxel.com/server-card.json
-Registry name: com.clauxel.hyperframesrender/hyperframesrender-mcp
-Tools: render_hyperframe_video, check_render_status, fetch_render_artifact, export_render_receipt
+Docs: https://github.com/clauxel/hyperframes-render-mcp-mcp
 
-Public boundary: docs-only repository; no production source code or secrets.
+Use case: HyperFrames Render MCP remote MCP for HyperFrames.
+Authentication: Bearer token required for production use.
+Tools: render_hyperframe_video, check_render_status, fetch_render_artifact, export_render_receipt
